@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes colores{
+    /*from{background: #9eb3c2;}
+    to{background: #21295c}*/
+    0%{background: #9eb3c2;}
+    25%{background: #1c7293;}
+    50%{background: #065a82;}
+    75%{background: #1b3b6f;}
+    100%{background: #9eb3c2;}
+    
+}
+@keyframes movimiento{
+    /*from{transform: translate(0px);}
+    to{transform: translate(500px);}*/
+    0%{transform: translate(0px);}
+    50%{transform: translate(500px);}
+    95%{transform: translate(500px);}
+    100%{transform: translate(0px);}
+}
+
+@keyframes movimientoDown{
+    /*from{transform: translate(0px);}
+    to{transform: translate(500px);}*/
+    0%{transform: translate(0px);}
+    50%{transform: translate(0px, 550px);}
+    95%{transform: translate(0px, 550px);}
+    100%{transform: translate(0px);}
+}
+
+@keyframes movimientoLeft{
+    /*from{transform: translate(0px);}
+    to{transform: translate(500px);}*/
+    0%{transform: translate(0px);}
+    50%{transform: translate(-500px);}
+    95%{transform: translate(-500px);}
+    100%{transform: translate(0px);}
+}
+
+@keyframes movimientoUp{
+    /*from{transform: translate(0px);}
+    to{transform: translate(500px);}*/
+    0%{transform: translate(0px);}
+    50%{transform: translate(0px, -550px);}
+    95%{transform: translate(0px, -550px);}
+    100%{transform: translate(0px);}
+}
+
+@keyframes movimientorightmiddle{
+    /*from{transform: translate(0px);}
+    to{transform: translate(500px);}*/
+    0%{transform: translate(0px);}
+    15%{transform: translate(0px);}
+    25%{transform: translate(0px);}
+    35%{transform: translate(0px);}
+    45%{transform: translate(-10px);}
+    50%{transform: translate(500px);}
+    65%{transform: translate(500px);}
+    75%{transform: translate(500px);}
+    85%{transform: translate(500px);}
+    95%{transform: translate(500px);}
+    97%{transform: translate(510px);}
+    99%{transform: translate(510px);}
+    100%{transform: translate(0px);}
+}
+
+.caja1{
+    width: 250px;
+    height: 250px;
+    background: #9eb3c2;
+   /* animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    animation: movimiento 4s ease infinite;
+}
+
+.caja2{
+    width: 250px;
+    height: 250px;
+    background: #ff0000;
+    position:relative;
+    top: 300px;
+    animation: movimientoUp 4s ease infinite;
+}
+
+.caja3{
+    width: 250px;
+    height: 250px;
+    background: #98ff12;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+
+    animation: movimientoLeft 4s ease infinite;
+}
+
+.caja4{
+    width: 250px;
+    height: 250px;
+    background: #0d3d5f;
+    position: absolute;
+    top:0%;
+    left: 500px;
+
+    animation: movimientoDown 4s ease infinite;
+}
+
+.master{
+    width: 250px;
+    height: 300px;
+    background: #000000;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    animation: movimientorightmiddle 4s ease infinite;
+}
+

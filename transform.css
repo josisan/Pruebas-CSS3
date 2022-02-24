@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #009dd2;
+    /*transform: translate(300px, 0px);*/
+    /*transform: scale(1.1,1.1);*/
+    /*transform: rotate(20deg);*/
+    /*transform: skew(15deg, 5deg);*/  /*(al lado, abajo)*/
+
+    transform: translate(200px) scale(1.5,1.5) rotate(20deg) ;
+}

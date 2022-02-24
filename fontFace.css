@@ -1,0 +1,12 @@
+/*@font-face{
+    font-family: "DancingScript-VariableFont_wght";
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+    font-family: "Montserrat-Regular";
+    src: url(fonts/Montserrat-Regular.ttf);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+}

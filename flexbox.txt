@@ -1,0 +1,61 @@
+Flexbox se divide en 2 grupos de propiedades:
+   - Propiedades para los elementos padre
+   - Propiedades para los elementos hijo
+
+=====================================
+Propiedades para los elementos padre:
+=====================================
+
+-display:flex;
+   NOS PERMITE HABILITAR QUE LOS ELEMENTOS HIJJOS SEAN FLEXIBLES
+
+flex-direction:;
+  Nos permite poner un valor:
+   row: Uno al lado del otro | row-reverse: Uno al lado derecho pero empezando desde la derecha | column: Nos permite que nuestros elementos se pongan en columnas | column-reverse: Lo mismo pero alreves
+
+-flex-wrap:;
+  Especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas.
+   no-wrap: viene por defecto, permanecer solo en una linea | wrap | wrap-reverse
+
+-flex-flow: <flex-direction> || flex-wrap;
+   Es un atajo de flex-direction y flex-wrap.
+
+-justify-content:;
+   Define cómo el navegador distribuye el espacio entre y alrededor de los elementos
+    flex-start: al inicio | flex-end: al final | center: en el centro, dejando un espacio en el inicio y final | space-between: se distribuye el espacio entre ellos | space-around: distribuye el espacio entre los elementos pero tambien al inicio y al final 
+
+-align-items:;
+  Esta propiedad nos permite acomodar nuestro contenido verticalmente
+   flex-start: por defecto| flex-end: Los elemento se posiscionan al final del contenedor padre| center: en el centro | stretch: este valor permite que nuestros elementos hijos ( sin tener un alto espesificado) se hagan mas altos hasta que abarquen el 100% del contenedor padre | baseline: Alinea los elementos conforme a la fuente. 
+
+-align-content:;
+
+   IMPORTANTE: Esta propiedad hace lo mismo que align-items, solo que funciona cuando tenemos mas de una linea de elementos.
+
+   flex-start | flex-end | center | space-between | space-around
+
+
+
+=====================================
+Propiedades para los elementos hijo:
+=====================================
+
+- order:;
+    Podemos cambiar el acomodo que tienen nuestros elementos, por ejemplo, cambiar el orden de las cajas 
+
+- flex-grow:;
+    Acepta un numero que servirá de proporción para hacer crecer el elemento en relación a los otros.
+
+    Si todos los elementos tienen flex-grow 1 el espacio restante se distribuira entre los elementos.
+
+- flex-shrink:;
+    Define la habilidad de un elemento para hacerse mas pequeño.
+
+    Por defecto todos se pueden hacer mas pequeños pero si le ponemos flex-shrink 0 el elemento no podra ser mas pequeño que su anchura.
+
+- flex-basis:;
+    Nos permite especificar el valor inicial que tendra un elemento. (Esta propiedad y la propiedad Width son practicamente lo mismo)
+
+- align-self:;
+    Nos permite posicionar solo un elemento diferente en las siguientes posiciones:
+     flex-start: Al inicio | flex-end: Al final | flex-center: Centro | baseline: Centrarlo dependiendo la fuente de los siguientes elementos(Este valor casi no se utiliza) | stretch: Permite abarcar todo el elemento, para esto tenemos que quitar el alto de si queremos que sea infinito.

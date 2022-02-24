@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metodología BEM</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+	<!--DENTRO DE BEM TENEMOS TRES TIPOS DE ELEMENTOS
+	     1-Bloques (Es un contenedor donde se encontrarán los diferentes elementos).
+
+		 2-Elementos (Es una de las variadas piezas que compondrán la estructura de un bloque).
+
+		 3-Modificadores (Para modificar el estilo de un elemento específico, existen los modificadores). se usa guion doble --
+
+	-->
+	<div class="contenedor"> <!--Block-->
+
+		<div class="contenedor__cards">
+			<div class="card"> <!--Block-->
+				<a href="#" class="card__thumbnail"> <!--Element-->
+					<img src="img/1.jpg" alt="" class="card__img"> <!--Element-->
+				</a>
+				<div class="card__textos">
+					<h3 class="card__titulo">
+						<a href="#" class="card__enlace-titulo">Lorem ipsum dolor sit amet.</a>
+					</h3>
+						<p class="card__extracto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium pariatur fugiat consequuntur dicta explicabo veritatis voluptatum neque beatae ut maiores, animi laudantium assumenda itaque ea omnis enim hic similique?</p>
+	
+						<a href="" class="boton boton--absolute"> <!--Block y Modificador--> 
+							<span class="boton__texto">Ver mas</span>
+							<i class="boton__icono fa fa-arrow-right" aria-hidden="true"></i> <!--Element-->
+						</a>
+				</div>
+			</div>
+			
+			<div class="card"> <!--Block-->
+				<a href="#" class="card__thumbnail"> <!--Element-->
+					<img src="img/2.jpg" alt="" class="card__img"> <!--Element-->
+				</a>
+				<div class="card__textos">
+					<h3 class="card__titulo">
+						<a href="#" class="card__enlace-titulo">Dolor sit lorem ipsum frast.</a>
+					</h3>
+						<p class="card__extracto">Consequuntur dicta explicabo veritatis voluptatum neque beatae Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium pariatur fugiat  ut maiores, animi laudantium assumenda itaque ea omnis enim hic similique?</p>
+	
+						<a href="" class="boton boton--absolute"> <!--Block y Modificador--> 
+							<span class="boton__texto">Ver mas</span>
+							<i class="boton__icono fa fa-arrow-right" aria-hidden="true"></i> <!--Element-->
+						</a>
+				</div>
+			</div>
+
+		</div>
+		
+
+		<div class="frase"> <!--Block-->
+            <h2 class="frase__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, voluptate!</h2>
+			<a href="#" role="button" class="boton boton--verde">
+				<span class="boton__texto">Comprar</span>
+				<i class="boton__icono fas fa-shopping-cart" aria-hidden="true"></i>
+			</a> <!--Block-->
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

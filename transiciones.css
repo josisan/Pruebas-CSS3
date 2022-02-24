@@ -1,0 +1,26 @@
+.caja{
+    background: #21295c;
+    width: 200px;
+    height: 200px;
+    transition: all 1s ease;
+    -webkit-transition-delay: 0.20s;
+            transition-delay: 0.20s;
+}
+
+.caja:hover{
+    background:rgb(154, 252, 27);
+    transform: translate(500px, 400px) scale(2,2) rotate(180deg) rotateY(180deg);
+    
+
+}
+/*
+                  Velocidad de Curva
+
+          ease - inicio lento, despue rapido y termina lento
+        linear - misma velocidad de inicio fin 
+       ease-in - inicio lento
+      ease-out - final lento
+   ease-in-out - inicio lento y final lento
+
+
+*/

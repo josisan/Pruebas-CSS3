@@ -1,0 +1,98 @@
+
+body{
+    background: #e2f89c ;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: #031927;
+    display: inline-block;
+}
+
+.caja1{
+    border: 7px solid #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 20px 50px 20px 50px;
+}
+.caja1:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+.caja2{
+    border: 7px dotted #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 20px 50px 20px 50px;
+}
+.caja2:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+
+.caja3{
+    border: 7px dashed #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 100%;
+}
+.caja3:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+
+.caja4{
+    border: 7px double #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 0px 0px 100px 100px;
+}
+.caja4:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+
+.caja5{
+    border: 7px groove #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 0px 100%;
+}
+.caja5:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+
+.caja6{
+    border: 7px ridge #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 20px;
+}
+.caja6:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+
+.caja7{
+    border: 7px inset #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 20px;
+}
+.caja7:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}
+
+.caja8{
+    border: 7px outset #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .8);
+    border-radius: 20px;
+}
+.caja8:hover{
+    width: 230px;
+    height: 230px;
+    margin: 0;
+}

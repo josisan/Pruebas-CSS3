@@ -1,0 +1,14 @@
+/* Selectores de Hijos directos, utilizar el mayor que > */
+div > p{
+font-size: 20px;
+}
+
+/*Selectores de atributos*/
+input[type]{
+    color: blue;
+}
+/*Selectores de atributos con valor*/
+/*Selectores de atributos*/
+input[type="texto"]{
+    color: blue;
+}

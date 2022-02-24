@@ -1,0 +1,28 @@
+/*selector universal*/
+*{
+  color: black;
+}
+
+/*selectores de etiqueta*/
+h1, h2, h3{
+    color: blue;
+}
+
+/*selector descendente*/
+div p{
+    font-size: 20px;
+    color: black;
+}
+
+p a {
+    color: burlywood;
+}
+
+ /*selector de clases*/
+.grande{
+    font-size: 28px;
+}
+
+.rojo{
+    color: red;
+}

@@ -1,0 +1,31 @@
+body{
+    background: #f2f2f2;
+    font-family: arial;
+}
+
+h1, p, div {
+    background: #ccc;
+    padding: 10px;
+    width: 500px;
+    display: inline-block;
+}
+
+a{
+    background: #000;
+    color: #fff;
+
+    display: inline-block;
+    padding: 20px;
+}
+
+/* Algunos elementos "inline"
+   a, span, img, b, i ,small, cite, code,
+   em, strong, br, script, button,
+   input, label, select, textarea.
+*/
+
+/* Algunos elementos "block"
+   div, article, section, header,
+   footer, aside, table, p, video,
+   ul, ol, h1, h2, h3, h4, h5, h6.
+*/
